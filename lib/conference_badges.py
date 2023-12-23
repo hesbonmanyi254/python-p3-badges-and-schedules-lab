@@ -1,11 +1,9 @@
-def badge_maker(name):
-    return None
+# conference_badges.py
 
 def batch_badge_creator(names):
-    return None
-
-def assign_rooms(names):
-    return None
-
-def printer(names):
-    return None
+    '''Create and return a list of badges for the given names.'''
+    badges = []
+    for name in names:
+        badge = f"Hello, my name is {name}."
+        badges.append(badge)
+    return badges
